@@ -8,8 +8,7 @@
   enjoyed the journey 
   
   <br>
-  Sonal Agrawal<br>
-  Madhav Agrawal<br>
+  
   First we will going to deploy the project on 
   server manually and then we will automate this deployment using JENKINS.
   <br>
