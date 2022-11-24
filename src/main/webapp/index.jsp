@@ -9,7 +9,7 @@
   <br>
   Blast blast...
   <br>
-  ankur agrawal
+  // Leave a Comment//
   
   First we will going to deploy the project on 
   server manually and then we will automate this deployment using JENKINS.
