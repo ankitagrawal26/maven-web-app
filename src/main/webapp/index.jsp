@@ -1,13 +1,13 @@
+<!DOCTYPE html>
 <html>
+<head><title>First JSP</title></head>
 <body>
-<h1><font color='red'> Welcome to my first Demo Project for Birlasoft - A place to grow and a platform to nurture<font></h1>
-
-<a href="https://ashokitech.com/online-training-schedules">Click Here To See further details and answer Schedules</a>
-  
-  <h2> Call Us : +91-7506706504 / +91 - 9987228583 </h2>
-  
-  <h3> Our Office Location : Noida, UP </h3>
-
-
+<% double num = Math.random();  // [0.0, 1.0)
+   if (num > 0.95) { %>
+      <h2>You'll have a luck day!</h2><p>(<%= num %>)</p>
+<% } else { %>
+      <h2>Well, life goes on ... </h2><p>(<%= num %>)</p>
+<% } %>
+   <a href="<%= request.getRequestURI() %>"><h3>Try Again</h3></a>
 </body>
 </html>
