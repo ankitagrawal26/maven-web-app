@@ -70,7 +70,7 @@
 </head>
 <body>
     <div class="container">
-        <h1>IT Parts Inventory BirlaSoft ICTS</h1>
+        <h1>IT Parts Inventory BirlaSoft</h1>
         <form id="inventoryForm">
             <label for="partName">Part Name:</label>
             <input type="text" id="partName" name="partName" required>
